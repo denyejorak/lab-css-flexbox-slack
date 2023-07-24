@@ -8,5 +8,848 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+* {
+    padding: 0;
+    margin: 0;
+}
 
-add something
+body {
+    background-color: #540B51;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+nav img {
+    height: 30px;
+    /* border: solid 1px blue; */
+}
+
+nav button {
+    background-color: #540B51;
+    border: none;
+    padding: 10px;
+    /* border: solid 1px blue; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    /* border: solid 5px red; */
+}
+
+nav ul {
+    visibility: hidden;
+    /* border: solid 1px blue; */
+}
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#buttons-sign-up {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons-sign-up button {
+    text-transform: uppercase;
+    margin: 10px auto;
+    width: 300px;
+}
+
+#sign-up-email {
+    color: #540B51;
+    padding: 10px 20px;
+    
+}
+
+#sign-up-google {
+    color: white;
+    background-color: #4285F4;
+    padding: 5px;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* I had to add extra span in html so that space-between would work as I did not now other wsay to move google image completely to the left side of the button while leaving the text in the middle*/
+
+#buttons-sign-up button img {
+    height: 20px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+#buttons-sign-up span {
+    float: none;
+}
+
+
+#screenshot img {
+    width: 100vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+main section {
+    background-color: #F3EAE2;
+
+
+}
+
+ #trusted-companies-text {
+    text-transform: uppercase;
+    padding: 40px 25px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#trusted-companies-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+
+#trusted-companies-logos img {
+    height: 50px;
+    padding: 10px;
+}
+
+.width-90 {
+    width: 90vw;
+}
+
+#connectedness a {
+    padding-top: 50px;
+    padding-left: 20px;
+} 
+/* padding top for a doesn't work, don't know why */
+
+.padding-top-left {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#work-flexibility a {
+    padding-top: 50px;
+    padding-left: 20px;
+} 
+/* padding top for a doesn't work, don't know why */
+
+#work-flexibility img {
+    float: right;
+    padding: 20px 0;
+}
+
+#speed-mobile {
+    padding-bottom: 40px;
+}
+
+#speed-mobile img {
+    padding: 20px 0;
+}
+
+#speed-mobile a {
+    padding-top: 50px;
+    padding-left: 20px; 
+}
+/* padding top for a doesn't work, don't know why */
+
+#teams-percentages {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#teams-percentages h3 {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#teams-percentages div {
+    display: flex;
+    flex-direction: column;
+}
+
+#teams-percentages button {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 10px auto;
+    width: 300px;
+}
+
+.purple-button {
+    background-color: #540B51;
+    color: white;
+    border: solid 1px #540B51;
+    border-radius: 5px;
+}
+
+.white-button {
+    background-color: white;
+    color:  #540B51;
+    border: solid 1px #540B51;
+    border-radius: 5px;
+}
+
+
+#teams-percentages ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.purple-percentage {
+    color: #540B51;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.percentage-text {
+    padding-bottom: 10px;
+    font-size: 15px;
+    width: 200px;
+    font-weight: bold;
+    align-self: center;
+    margin: 0 auto;
+}
+
+#digital-iq {
+    background-color: #540B51;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#digital-iq h3 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#digital-iq button {
+    width: 300px;
+    margin: 10px auto;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.white-border {
+    border: solid 1px white;
+}
+
+footer {
+    background-color: white;
+}
+
+#slack-iso-logo {
+    height: 60px;
+}
+
+footer img {
+    padding: 30px;
+}
+
+#bottom-menu {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+#bottom-menu ul {
+    list-style: none;
+}
+
+#bottom-menu ul li, #last-list li {
+    padding: 20px 0;
+}
+
+#bottom-menu ul :first-child {
+    font-weight: bold;
+}
+
+footer hr {
+    margin: 0 20px;
+}
+
+#last-list {
+    padding: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+#last-list li img {
+    padding: 0;
+}
+
+#last-list :last-child {
+    color: #2E71A6;
+}
+
+#bottom-logos {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+#bottom-text {
+    padding: 20px;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 959px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    header h1,
+    header p {
+        text-align: start;
+    }
+
+    #buttons-sign-up {
+        padding-bottom: 50px;
+    }
+
+    #buttons-sign-up button {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #screenshot {
+        display: flex;
+        align-items: center;
+    }
+
+    #screenshot img {
+        float: right;
+        width: 30vw;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    #trusted-companies-logos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    #trusted-companies-logos img {
+        height: 40px;
+        padding: 10px;
+    }
+
+    #connectedness h2, 
+    #work-flexibility h2,
+    #speed-mobile h2 {
+        font-size: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    #connectedness p, 
+    #work-flexibility p,
+    #speed-mobile p {
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    #connectedness a, 
+    #work-flexibility a,
+    #speed-mobile a {
+        font-size: 20px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    #teams-percentages div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #teams-percentages div button {
+        text-transform: uppercase;
+        padding: 10px;
+        width: 300px;
+        margin: 30px 10px;
+    }
+
+    #teams-percentages h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    #teams-percentages ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #teams-percentages ul li {
+        text-align: start;
+    }
+
+    #digital-iq h3 {
+        font-size: 40px;
+    }
+
+    #digital-iq button {
+        width: 80vw;
+        font-size: 20px;
+        padding: 20px 20px;
+    }
+
+    #last-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #bottom-logos {
+        justify-content: flex-start;
+    }
+
+    #bottom-logos li {
+        padding-right: 50px;
+    }
+
+}
+
+
+@media (min-width: 960px) and (max-width: 1199px) {
+
+
+    nav {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    nav div {
+        display: flex;
+    }
+
+    nav div ul {
+        visibility: visible;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    nav div ul li a {
+        color: white;
+        padding: 0 10px;
+        font-weight: bold;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    nav div button {
+        padding: 0;
+    }
+
+    #try-for-free-link {
+        text-transform: uppercase;
+        background-color: white;
+        padding: 10px 0;
+        border-radius: 5px;
+    }
+
+    #try-for-free-link a {
+        color: #540B51;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    header h1,
+    header p {
+        text-align: start;
+    }
+
+    #buttons-sign-up {
+        padding-bottom: 50px;
+    }
+
+    #buttons-sign-up button {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #screenshot {
+        display: flex;
+        align-items: center;
+    }
+
+    #screenshot img {
+        float: right;
+        width: 40vw;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    #trusted-companies-logos {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+
+    #connectedness, 
+    #work-flexibility,
+    #speed-mobile {
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        padding-top: 50px;
+    }
+
+    #connectedness img, 
+    #work-flexibility img,
+    #speed-mobile img {
+        width: 40vw;
+    }
+
+    #work-flexibility {
+        /* border: 1px solid blue; */
+        flex-direction: row-reverse;
+    }
+
+    #connectedness h2, 
+    #work-flexibility h2,
+    #speed-mobile h2 {
+        font-size: 50px;
+    }
+
+    #connectedness p, 
+    #work-flexibility p,
+    #speed-mobile p {
+        line-height: 40px;
+        
+    }
+
+    #teams-percentages div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #teams-percentages div button {
+        text-transform: uppercase;
+        padding: 10px;
+        width: 300px;
+        margin: 30px 10px;
+    }
+
+    #teams-percentages h3 {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    #teams-percentages p {
+        font-size: 20px;
+    }
+
+    #teams-percentages ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    #teams-percentages ul li {
+        text-align: start;
+    }
+
+    #percentages-list p {
+        font-size: 15px;
+    }
+
+    #percentages-list p span {
+        font-size: 60px;
+    }
+
+    #digital-iq {
+        display: block;
+        text-align: center;
+    }
+
+    #digital-iq h3 {
+        font-size: 40px;
+    }
+
+    #digital-iq button {
+        width: 35vw;
+        font-size: 20px;
+        padding: 20px 20px;
+        display: inline-block;
+    }
+
+    #last-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #bottom-logos {
+        justify-content: flex-start;
+    }
+
+    #bottom-logos li {
+        padding-right: 50px;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    nav {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    nav div {
+        display: flex;
+    }
+
+    nav div ul {
+        visibility: visible;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    nav div ul li a {
+        color: white;
+        padding: 0 10px;
+        font-weight: bold;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    nav div button {
+        padding: 0;
+    }
+
+    #try-for-free-link {
+        text-transform: uppercase;
+        background-color: white;
+        padding: 10px 0;
+        border-radius: 5px;
+    }
+
+    #try-for-free-link a {
+        color: #540B51;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    header h1,
+    header p {
+        text-align: start;
+    }
+
+    #buttons-sign-up {
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* border: solid 1px red; */
+    }
+
+    #buttons-sign-up button {
+        font-size: 20px;
+        margin: 0;
+        padding: 20px;
+        width: 49%;
+        border-radius: 10px;
+    }
+
+    #sign-up-email {
+        margin-left: 0;
+    }
+
+    #screenshot {
+        display: flex;
+        align-items: center;
+    }
+
+    #screenshot img {
+        float: right;
+        width: 40vw;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    #trusted-companies-logos {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+
+    #connectedness, 
+    #work-flexibility,
+    #speed-mobile {
+        display: flex;
+        justify-content: space-between;
+        gap: 200px;
+        padding-top: 50px;
+    }
+
+    #connectedness img, 
+    #work-flexibility img,
+    #speed-mobile img {
+        width: 40vw;
+    }
+
+    #work-flexibility {
+        /* border: 1px solid blue; */
+        flex-direction: row-reverse;
+    }
+
+    #connectedness h2, 
+    #work-flexibility h2,
+    #speed-mobile h2 {
+        font-size: 50px;
+    }
+
+    #connectedness p, 
+    #work-flexibility p,
+    #speed-mobile p {
+        line-height: 40px;
+        
+    }
+
+    #teams-percentages div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #teams-percentages div button {
+        text-transform: uppercase;
+        padding: 10px;
+        width: 300px;
+        margin: 30px 10px;
+    }
+
+    #teams-percentages h3 {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    #teams-percentages p {
+        font-size: 20px;
+    }
+
+    #teams-percentages ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    #teams-percentages ul li {
+        text-align: start;
+    }
+
+    #percentages-list p {
+        font-size: 15px;
+    }
+
+    #percentages-list p span {
+        font-size: 60px;
+    }
+
+    #digital-iq {
+        display: block;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #digital-iq h3 {
+        font-size: 40px;
+    }
+
+    #digital-iq button {
+        width: 300px;
+        font-size: 20px;
+        padding: 20px 20px;
+        display: inline-block;
+    }
+
+    #last-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #bottom-logos {
+        justify-content: flex-start;
+    }
+
+    #bottom-logos li {
+        padding-right: 50px;
+    }
+
+}
+ 
